@@ -159,7 +159,7 @@ nav.page-header a {
     display: inline-block;
     margin-left: 15px;
   }  */
-nav.topBotomBordersOut a:before {
+nav.topBottomBordersOut a:before {
   position: absolute;
   left: 0px;
   width: 100%;
@@ -172,7 +172,7 @@ nav.topBotomBordersOut a:before {
   transition: all 0.3s;
 }
 
-nav.topBotomBordersOut a:after {
+nav.topBottomBordersOut a:after {
   position: absolute;
   left: 0px;
   width: 100%;
@@ -185,22 +185,22 @@ nav.topBotomBordersOut a:after {
   transition: all 0.3s;
 }
 
-nav.topBotomBordersOut a:before {
+nav.topBottomBordersOut a:before {
   top: 0px;
   -webkit-transform: translateY(10px);
   -ms-transform: translateY(10px);
   transform: translateY(10px);
 }
 
-nav.topBotomBordersOut a:after {
+nav.topBottomBordersOut a:after {
   bottom: 0px;
   -webkit-transform: translateY(-10px);
   -ms-transform: translateY(-10px);
   transform: translateY(-10px);
 }
 
-nav.topBotomBordersOut a:hover:before,
-nav.topBotomBordersOut a:hover:after {
+nav.topBottomBordersOut a:hover:before,
+nav.topBottomBordersOut a:hover:after {
   opacity: 1;
   -webkit-transform: translateY(0px);
   -ms-transform: translateY(0px);
